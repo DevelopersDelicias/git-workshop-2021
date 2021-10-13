@@ -476,3 +476,20 @@ $ git pull
 $ cd path/to/your/projects
 $ git clone git@github.com:DevelopersDelicias/taller-git-2021.git
 ```
+
+## Recursos adicionales
+
+Taller de Git
+
+1. https://www.youtube.com/watch?v=gCIn-e3p7yo
+2. https://www.youtube.com/watch?v=_6UQ-ZBjizw
+3. https://www.youtube.com/watch?v=_c3aZEVi_EY
+4. https://www.youtube.com/watch?v=eCtVQ2NZxNY
+
+¡No olviden subscribirse a mi canal :P!
+
+Facebook
+
+https://en-gb.facebook.com/groups/developersdeliciascommunity/
+
+¡Únanse a la comunidad para seguir creando más contenido y apoyarnos mutuamente!

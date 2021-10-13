@@ -435,17 +435,7 @@ Dentro de Github localizamos el boton de New y le damos clic.
 
 Luego le damos un nombre a nuestro branch, seleccionamos si es de acceso Publico o Privado y le damos en crear.
 
-### Ligar repositorio local con remoto
-
-git remote add origin git@github.com:DevelopersDelicias/taller-git-2021.git
-git branch -M main
-git push -u origin main
-
-### Subir cambios locales al repositorio remoto
-
-git push
-
-#### SSH config
+### SSH config
 
 ```
 ssh-keygen -t rsa
@@ -457,10 +447,32 @@ Una vez terminado nos creara un archivo `~/.ssh/id_rsa.pub` el cual tendremos qu
 
 https://github.com/settings/keys
 
+### Ligar repositorio local con remoto
+
+```
+git remote add origin git@github.com:DevelopersDelicias/taller-git-2021.git
+git branch -M main
+git push -u origin main
+```
+
+### Subir nuevos cambios
+
+Para subir nuevos cambios solamente es cuestion de realizar lo siguiente.
+
+1. Realizamos los cambios localmente y hacemos cuantos commits sean necesarios
+2. Ejecutamos el comando `git push`
+
 ### Actualizar repositorio con cambios remotos
 
-git pull
+Para actualizar nuestro repositorio local utilizamos el siguiente commando
+
+```
+$ git pull
+```
 
 ### Clonar un repositorio existente
 
-git clone git@github.com:DevelopersDelicias/taller-git-2021.git
+```
+$ cd path/to/your/projects
+$ git clone git@github.com:DevelopersDelicias/taller-git-2021.git
+```

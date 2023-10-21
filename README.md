@@ -25,15 +25,15 @@ Git es una herramienta muy útil para el desarrollo de Software que nos permite 
 2. Crear una carpeta donde se alojarán nuestros proyectos
 
 ```
-$ mkdir  path/to/your/projects/
+$ mkdir  -p path/to/your/projects/
 ```
 
 3. Creamos una nueva carpeta que contendrá nuestro proyecto (repositorio)
 
 ```
 $ cd  path/to/your/projects/
-$ mkdir taller-git-2021
-$ cd taller-git-2021
+$ mkdir taller-git
+$ cd taller-git
 ```
 
 4. Inicializamos un nuevo repositorio
@@ -45,7 +45,7 @@ $ git init
 5. Exploramos el contenido de la carpeta creada
 
 ```
-$ ls -la
+$ ls -la .git
 
 -rw-r--r-- 1 cisne 197609 130 oct. 12 16:35 config
 -rw-r--r-- 1 cisne 197609  73 oct. 12 16:35 description

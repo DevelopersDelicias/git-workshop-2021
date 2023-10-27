@@ -102,7 +102,7 @@ $ git config user.name "John Doe"
 ### Práctica 2: Configurar nuestro nombre de usuario y correo en el repositorio actual
 
 1. Lista las configuraciones actuales del proyecto
-2. Verifica los valores actuales para el nombre de usuario y password actuales (`user.name` y `user.email`)
+2. Verifica los valores actuales para el nombre de usuario y correo electrónico actuales (`user.name` y `user.email`)
 3. Configura los valores correspondientes a tu Nombre completo y correo que utilices habitualmente.
 4. Verifica que los cambios se han realizado correctamente.
 
